@@ -1,0 +1,208 @@
+body {
+     font-family: 'Montserrat', sans-serif;
+     text-align: center;
+}
+
+ /* Headers Section */
+
+ h1,h2,h3,h4,h5,h6 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+ }
+
+.big-heading {
+  
+    font-size: 3.5rem;
+    line-height: 1.5;
+  }
+
+.section-heading {
+  font-size: 3.5rem;
+    line-height: 1.5;
+}
+      
+
+
+
+/* title section */
+
+#title {
+    background-color: #ff4c68;
+    color: white;
+     text-align: left; /*or we can put the text-alight: left in the .big-heading class */
+    
+}
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
+}
+
+
+.container-fluid {
+     padding: 7% 15%;  /* that's 3% on top, 15% left and right, and 7% on the bottom  */
+}
+
+
+
+.navbar {
+    padding:0 0 4.5rem;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+   font-size: 1.2rem;
+   font-family: 'Montserrat', sans-serif;
+   font-weight: lighter;
+}
+
+.navbar-brand
+    {
+      font-size: 2.5rem;
+      font-weight: bold;
+      font-family: 'Ubuntu', sans-serif;
+    }
+
+.btn-download {
+    margin: 5% 3% 5% 0;
+}
+
+.image-title {
+    width: 60%;
+    transform: rotate(25deg);
+    position: relative;
+    margin-bottom:-50%;
+    left: 25%;
+  }
+    
+    
+    
+
+ /* Features Section */
+
+
+ .feature-image {
+    color: #ef8172;
+    margin-bottom: 1rem;
+    /* we can use font-size because it is defined as <i> element for italic to change the icons size. */
+ }
+
+ .feature-image:hover {
+    color: #ff4c68;
+ }
+.feature-title {
+  font-size: 1.5rem;
+}
+ .feature-section {
+    text-align: center;
+    padding: 4%;
+ }
+
+ #features {
+    background-color: white;
+    position: relative;
+    z-index: 1;
+ }
+
+p {
+    color: #8f8f8f;
+}
+
+  /* Testimonial Section */
+
+  .testimonial-text {
+    font-size: 3.5rem;
+    line-height: 1.5;
+  }
+
+  #testimonials {
+    
+    background-color: #ef8172;
+    color: white;
+  }
+
+
+  .testimonial-image {
+
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+
+  }
+
+  #press {
+    background-color: #ef8172;
+   
+    padding-bottom: 3%;
+    
+  }
+
+  .press-image {
+    width: 15%;
+    margin: 20px 20px 50px;
+  }
+
+   /* Pricing Section */
+  .price-text {
+    font-size: 3rem;
+    line-height: 1.5;
+  }
+
+   #pricing {
+    padding: 100px;
+    
+   }
+
+   .pricing-column {
+    padding: 3% 2%;
+   }
+
+   @media (max-width: 1028px) {
+
+    #title {
+      text-align: center;
+    }
+    .image-title {
+      position: static;
+      transform: rotate(0deg);
+      margin-bottom:0%;
+      
+
+    }
+   }
+
+
+   /* cta section */
+   #cta {
+    background-color: #ff4c68;
+    
+   }
+
+
+   .cta-header {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size:3.5rem;
+    line-height: 1.5;
+    color: white;
+   }
+
+   
+   
+   /* footer section */
+
+   #footer {
+    background-color: white;
+    
+    font-size: 20px;
+   }
+
+   .footer-parag {
+    font-size: 20px;
+   }
+
+   .social-icon {
+    margin: 20px 10px;
+   }
